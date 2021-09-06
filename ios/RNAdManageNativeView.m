@@ -329,11 +329,6 @@ static NSString *const kAdTypeTemplate = @"template";
                                    nil, @"images",
                                    nil];
 
-        NSString *socialContext = nativeAd.extraAssets[GADFBSocialContext];
-        if (socialContext != nil) {
-            ad[@"socialContext"] = socialContext;
-        }
-
         if (nativeAd.icon != nil) {
             ad[@"icon"] = [[NSMutableDictionary alloc] initWithObjectsAndKeys:
                 nativeAd.icon.imageURL.absoluteString, @"uri",

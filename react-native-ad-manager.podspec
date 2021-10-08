@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency 'Google-Mobile-Ads-SDK', '8.9.0'
+  s.dependency 'Google-Mobile-Ads-SDK', '8.11.0'
 end
 
